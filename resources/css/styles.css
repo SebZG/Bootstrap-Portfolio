@@ -1,11 +1,3 @@
-*,
-*:before,
-*:after {
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
-}
-
 :root {
   /** FONT SIZES */
   --F-XXS: 0.25rem;
@@ -23,11 +15,19 @@
   --RED: #df2935;
   --YELLOW: #ff9f1c;
   --BLACK: #333;
+
+  /* BOOTSTRAP VARs */
+  --bs-btn-bg: red;
 }
 
 ::selection {
   background-color: var(--BLUE);
   color: var(--WHITE);
+}
+
+#about,
+#work {
+  scroll-margin-top: 8vh;
 }
 
 body {
@@ -44,6 +44,10 @@ body,
 .card {
   background-color: var(--BLUE);
 }
+
+/* .card {
+  background-color: black;
+} */
 
 .tech-stack i {
   /* font-size: 4rem; */
@@ -92,7 +96,6 @@ body,
 }
 
 .project__3 {
-  /* grid-area: project1; */
   background-image: url("../images/horiseon-demo.png");
 }
 
