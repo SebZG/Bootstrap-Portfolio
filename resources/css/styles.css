@@ -54,9 +54,6 @@ body,
 /*! TECH STACK */
 
 .tech-stack i {
-  /* font-size: 4rem; */
-  /* margin: 0 1.5vw; */
-  opacity: 0.8;
   transition: all 0.2s ease-in-out;
 }
 
@@ -65,8 +62,7 @@ body,
 }
 
 .tech-stack i:hover {
-  opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .fa-html5 {
@@ -113,15 +109,12 @@ body,
 
 #hero .card,
 #skills .card,
-#contact .card
-{
+#contact .card {
   --bs-card-bg: rgba(0, 0, 0, 0.50);
 }
 
 #work .card,
-#about .card
-/* #contact .card  */
-{
+#about .card {
   --bs-card-bg: rgba(17, 138, 178, 1);
 }
 
