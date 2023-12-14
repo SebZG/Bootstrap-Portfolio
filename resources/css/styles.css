@@ -68,6 +68,16 @@ body,
   border: 1px solid var(--WHITE);
 }
 
+.btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: var(--BLACK);
+  color: white;
+}
+
+.btn:hover {
+  background-color: var(--YELLOW);
+}
+
 .tech-stack i {
   /* font-size: 4rem; */
   /* margin: 0 1.5vw; */
