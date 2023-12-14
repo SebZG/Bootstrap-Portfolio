@@ -40,14 +40,33 @@ body,
   color: var(--WHITE)
 }
 
-.navbar,
-.card {
+.navbar {
   background-color: var(--BLUE);
 }
 
-/* .card {
-  background-color: black;
-} */
+.card-footer {
+  --bs-card-cap-padding-y: 0;
+  --bs-card-cap-padding-x: 0;
+  /* --bs-card-border-color: white; */
+}
+
+.border-bottom {
+  --bs-border-color: var(--WHITE);
+}
+
+.btn {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.hero .card {
+  --bs-card-bg: rgba(0, 0, 0, 0.50);
+}
+
+.card {
+  --bs-card-bg: rgba(17, 138, 178, 0.75);
+  border: 1px solid var(--WHITE);
+}
 
 .tech-stack i {
   /* font-size: 4rem; */
