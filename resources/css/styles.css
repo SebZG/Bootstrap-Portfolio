@@ -1,3 +1,7 @@
+* {
+  /* outline: 1px solid red; */
+}
+
 /*! VARIABLES */
 
 :root {
@@ -41,14 +45,16 @@ body,
   color: var(--WHITE)
 }
 
-.navbar {
+.navbar,
+footer {
   background-color: var(--BLUE);
 }
 
-/*! SECTION DIVIDERS  */
+/*! BORDERS */
 
-.border-bottom {
-  --bs-border-color: var(--WHITE);
+.border-bottom,
+.border-top {
+  --bs-border-color: rgb(255, 255, 255, 1);
 }
 
 /*! TECH STACK */
@@ -90,12 +96,11 @@ body,
 .card-footer {
   --bs-card-cap-padding-y: 0;
   --bs-card-cap-padding-x: 0;
-  /* --bs-card-border-color: white; */
 }
 
 .btn {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-color: var(--BLACK);
+  background-color: rgba(0, 0, 0, 9);
+  border: 1px solid rgba(0, 0, 0, 1);
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   color: white;
@@ -105,21 +110,33 @@ body,
   background-color: var(--YELLOW);
 }
 
-/*! CARD BACKGROUND-COLORS/BORDERS */
+/*! CARD BACKGROUND */
 
 #hero .card,
 #skills .card,
 #contact .card {
-  --bs-card-bg: rgba(0, 0, 0, 0.50);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 #work .card,
 #about .card {
-  --bs-card-bg: rgba(17, 138, 178, 1);
+  background-color: rgba(17, 138, 178, 1);
 }
 
-.card {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+/*! CARD BORDERS */
+
+#hero .card,
+#work .card,
+#skills .card,
+#contact .card,
+#about .card {
+  border: 0px solid rgb(80, 80, 80);
+  /* border: 0; */
+}
+
+.card-footer {
+  /* background-color: var(--BLACK); */
+  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 /*! WORK IMAGES */
@@ -154,7 +171,7 @@ body,
   background-size: cover;
 }
 
-/*! CONTACT STYLES */
+/*! CONTACT */
 
 #contact a {
   text-decoration: none;
