@@ -18,7 +18,7 @@
 <body>
 
 	<!-- HEADER // NAV BAR -->
-	<header class="sticky-top">
+	<header id="header" class="sticky-top">
 		<nav class="navbar px-5">
 			<div class="container d-flex justify-content-between">
 				<img class="mx-4" src="./resources/images/szg()-white-svg.svg" alt="" width="80px">
@@ -43,7 +43,7 @@
 	</header>
 
 	<!-- HERO -->
-	<section class="container hero my-5">
+	<section id="hero" class="container my-5">
 		<div class="row justify-content-center">
 			<div class="col-8">
 				<div class="card mb-0">
@@ -178,84 +178,14 @@
 	</section>
 
 	<!-- SKILLS -->
-	<section id="skills" class="container">
+	<section id="skills" class="container mt-1">
 		<div class="row justify-content-center">
 			<div class="col-10 mb-5">
-				<h2 class="border-bottom pt-5 pb-4">Work</h2>
+				<h2 class="border-bottom pt-5 pb-4">Skills</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col">
-
-			</div>
-		</div>
-	</section>
-
-	<!-- ABOUT // CONTACT -->
-	<section class="container mt-1">
 		<div class="row justify-content-center">
-			<div class="col-10 d-flex justify-content-between border-bottom mb-5 pb-4">
-				<h2 id="about-contact" class="pt-5">About</h2>
-				<h2 id="about-contact" class=" pt-5">Contact</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div id="about" class="col">
-				<div class="accordion" id="accordion">
-					<div class="accordion-item">
-						<h2 class="accordion-header">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-								aria-expanded="true" aria-controls="collapseOne">
-								Accordion Item #1
-							</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-								plugin adds the appropriate classes that we use to style each element. These classes control the overall
-								appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-								custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-								within the <code>.accordion-body</code>, though the transition does limit overflow.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Accordion Item #2
-							</button>
-						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-								plugin adds the appropriate classes that we use to style each element. These classes control the overall
-								appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-								custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-								within the <code>.accordion-body</code>, though the transition does limit overflow.
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Accordion Item #3
-							</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-								plugin adds the appropriate classes that we use to style each element. These classes control the overall
-								appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-								custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-								within the <code>.accordion-body</code>, though the transition does limit overflow.
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="contact" class="col">
+			<div class="col-8">
 				<div class="card">
 					<div class="card-header">
 						Quote
@@ -266,6 +196,49 @@
 							<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
 							</footer>
 						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ABOUT // CONTACT -->
+	<section id="about-contact" class="container mt-1">
+		<div class="row justify-content-center">
+			<div class="col-10 d-flex justify-content-between border-bottom mb-5 pb-4">
+				<h2 id="about-contact" class="pt-5">About</h2>
+				<h2 id="about-contact" class=" pt-5">Contact</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div id="about" class="col">
+				<div class="card">
+					<div class="card-header">
+						Quote
+					</div>
+					<div class="card-body">
+						<blockquote class="blockquote mb-0">
+							<p>A well-known quote, contained in a blockquote element.</p>
+							<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div id="contact" class="col">
+				<div class="card">
+					<div class="card-body">
+						<div class="d-flex justify-content-evenly fs-1">
+							<a class="" href="mailto:sebastian.zapata.g@gmail.com">
+								<i class="fa-solid fa-envelope"></i>
+							</a>
+							<a class="" href="https://github.com/SebZG" alt="My GitHub Profile">
+								<i class="fa-brands fa-github"></i>
+							</a>
+							<a class="" href="https://www.linkedin.com/in/sebastian-z-g/" alt="My Linkedin Profile">
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,3 +1,5 @@
+/*! VARIABLES */
+
 :root {
   /** FONT SIZES */
   --F-XXS: 0.25rem;
@@ -15,10 +17,9 @@
   --RED: #df2935;
   --YELLOW: #ff9f1c;
   --BLACK: #333;
-
-  /* BOOTSTRAP VARs */
-  --bs-btn-bg: red;
 }
+
+/*! GENERAL  */
 
 ::selection {
   background-color: var(--BLUE);
@@ -44,39 +45,13 @@ body,
   background-color: var(--BLUE);
 }
 
-.card-footer {
-  --bs-card-cap-padding-y: 0;
-  --bs-card-cap-padding-x: 0;
-  /* --bs-card-border-color: white; */
-}
+/*! SECTION DIVIDERS  */
 
 .border-bottom {
   --bs-border-color: var(--WHITE);
 }
 
-.btn {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.hero .card {
-  --bs-card-bg: rgba(0, 0, 0, 0.50);
-}
-
-.card {
-  --bs-card-bg: rgba(17, 138, 178, 0.75);
-  border: 1px solid var(--WHITE);
-}
-
-.btn {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-color: var(--BLACK);
-  color: white;
-}
-
-.btn:hover {
-  background-color: var(--YELLOW);
-}
+/*! TECH STACK */
 
 .tech-stack i {
   /* font-size: 4rem; */
@@ -114,7 +89,42 @@ body,
   color: blueviolet;
 }
 
-/* WORK */
+/*! CARD BUTTONS  */
+
+.card-footer {
+  --bs-card-cap-padding-y: 0;
+  --bs-card-cap-padding-x: 0;
+  /* --bs-card-border-color: white; */
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: var(--BLACK);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: white;
+}
+
+.btn:hover {
+  background-color: var(--YELLOW);
+}
+
+/*! CARD BACKGROUND-COLORS */
+
+#hero .card,
+#skills .card {
+  --bs-card-bg: rgba(0, 0, 0, 0.50);
+  border: 1px solid var(--WHITE);
+}
+
+#work .card,
+#about .card,
+#contact .card {
+  --bs-card-bg: rgba(17, 138, 178, 0.75);
+  border: 1px solid var(--WHITE);
+}
+
+/*! WORK IMAGES */
 
 .project__1 {
   background-image: url("../images/CSS-Cheatsheet-demo.png");
@@ -144,4 +154,34 @@ body,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*! ACCORDION COLORS */
+
+/*! CONTACT STYLES */
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact i {
+  scale: 1;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#contact i:hover {
+  transform: scale(1.2);
+}
+
+.fa-envelope {
+  color: var(--RED);
+}
+
+.fa-github {
+  color: var(--BLACK);
+}
+
+.fa-linkedin {
+  color: dodgerblue;
 }
