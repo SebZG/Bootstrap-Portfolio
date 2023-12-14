@@ -54,7 +54,7 @@ footer {
 
 .border-bottom,
 .border-top {
-  --bs-border-color: rgb(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
 }
 
 /*! TECH STACK */
@@ -132,11 +132,6 @@ footer {
 #about .card {
   border: 0px solid rgb(80, 80, 80);
   /* border: 0; */
-}
-
-.card-footer {
-  /* background-color: var(--BLACK); */
-  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 /*! WORK IMAGES */
