@@ -109,19 +109,24 @@ body,
   background-color: var(--YELLOW);
 }
 
-/*! CARD BACKGROUND-COLORS */
+/*! CARD BACKGROUND-COLORS/BORDERS */
 
 #hero .card,
-#skills .card {
+#skills .card,
+#contact .card
+{
   --bs-card-bg: rgba(0, 0, 0, 0.50);
-  border: 1px solid var(--WHITE);
 }
 
 #work .card,
-#about .card,
-#contact .card {
-  --bs-card-bg: rgba(17, 138, 178, 0.75);
-  border: 1px solid var(--WHITE);
+#about .card
+/* #contact .card  */
+{
+  --bs-card-bg: rgba(17, 138, 178, 1);
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /*! WORK IMAGES */
@@ -156,8 +161,6 @@ body,
   background-size: cover;
 }
 
-/*! ACCORDION COLORS */
-
 /*! CONTACT STYLES */
 
 #contact a {
@@ -179,7 +182,7 @@ body,
 }
 
 .fa-github {
-  color: var(--BLACK);
+  color: var(--WHITE);
 }
 
 .fa-linkedin {
