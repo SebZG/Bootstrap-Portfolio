@@ -30,9 +30,10 @@
   color: var(--WHITE);
 }
 
-#about,
-#work {
-  scroll-margin-top: 8vh;
+#work,
+#skills,
+#about-contact {
+  scroll-margin-top: 3rem;
 }
 
 body {
