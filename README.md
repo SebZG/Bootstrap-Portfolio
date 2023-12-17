@@ -1,6 +1,6 @@
 # Bootstrap Portfolio
 
-My Portfolio remade with the Power Of Bootstrap.
+My Portfolio remade with the Power of Bootstrap.
 Here I take advantage of Bootstrap's components and 12 column grid system.
 
 [**Deployed Project**](https://sebzg.github.io/CSS-Portfolio/)
