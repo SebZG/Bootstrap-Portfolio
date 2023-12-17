@@ -51,19 +51,19 @@ footer {
   background-color: var(--BLUE);
 }
 
-#hero i {
-  font-size: 3.5rem;
-}
-
-#nav {
-  margin-bottom: 3.5rem;
-}
-
 #hero,
 #work,
 #info,
 #contact {
   margin-bottom: 6rem;
+}
+
+#info .section-division {
+  margin-bottom: 4rem;
+}
+
+#skills {
+  margin-bottom: 1rem;
 }
 
 .section-division {
@@ -76,6 +76,26 @@ footer {
 .border-bottom,
 .border-top {
   border-color: rgba(255, 255, 255, 1);
+}
+
+/*! HERO  */
+
+#hero i {
+  font-size: 3.5rem;
+}
+
+/*! NAV  */
+
+#nav {
+  margin-bottom: 3.5rem;
+}
+
+#nav img {
+  margin-left: 2rem;
+}
+
+#nav a {
+  margin-left: 2rem;
 }
 
 /*! TECH STACK */
@@ -115,30 +135,12 @@ footer {
   color: blueviolet;
 }
 
-/*! CARD BUTTONS  */
-
-.card-footer {
-  --bs-card-cap-padding-y: 0;
-  --bs-card-cap-padding-x: 0;
-}
-
-.btn {
-  background-color: rgba(0, 0, 0, 9);
-  border: 1px solid rgba(0, 0, 0, 1);
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  color: white;
-}
-
-.btn:hover {
-  background-color: var(--YELLOW);
-}
 
 /*! CARD BACKGROUNDS */
 
-#work .card,
-#about .card,
-#info .card {
+/* #hero .card,
+#info .card, */
+#work .card {
   background-color: rgba(17, 138, 178, 1);
 }
 
@@ -164,30 +166,67 @@ footer {
   border-top: 2px solid black;
 }
 
+/*! CARD BUTTONS  */
+
+.card-footer {
+  --bs-card-cap-padding-y: 0;
+  --bs-card-cap-padding-x: 0;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 9);
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  color: white;
+}
+
+.btn:hover {
+  background-color: var(--YELLOW);
+}
+
 /*! WORK IMAGES */
 
 .project__1 {
-  background-image: url("../images/Travel-California-Desktop.png");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/Travel-California-Desktop.png");
 }
 
 .project__2 {
-  background-image: url("../images/CSS-Cheatsheet-demo.png");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/CSS-Cheatsheet-demo.png");
 }
 
 .project__3 {
-  background-image: url("../images/Landing-Page-demo.png");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/Landing-Page-demo.png");
 }
 
 .project__4 {
-  background-image: url("../images/horiseon-demo.png");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/horiseon-demo.png");
 }
 
 .project__5 {
-  background-image: url("../images/portfolio-1.jpg");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/portfolio-1.jpg");
 }
 
 .project__6 {
-  background-image: url("../images/portfolio-2.jpg");
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 1)), url("../images/portfolio-2.jpg");
 }
 
 .project {
