@@ -31,9 +31,9 @@
 }
 
 #work,
-#skills,
-#about-contact {
-  scroll-margin-top: 3rem;
+#skills-about,
+#contact {
+  scroll-margin-top: 6rem;
 }
 
 body {
@@ -51,6 +51,26 @@ footer {
   background-color: var(--BLUE);
 }
 
+#hero i {
+  font-size: 3.5rem;
+}
+
+#nav {
+  margin-bottom: 3.5rem;
+}
+
+#hero,
+#work,
+#skills-about,
+#contact {
+  margin-bottom: 6rem;
+}
+
+.section-division {
+  margin-bottom: 6rem;
+  padding-bottom: 2rem;
+}
+
 /*! BORDERS */
 
 .border-bottom,
@@ -60,16 +80,19 @@ footer {
 
 /*! TECH STACK */
 
-.tech-stack i {
+#hero i {
   transition: all 0.2s ease-in-out;
-}
-
-.tech-stack {
-  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  font-size: 3.5rem;
 }
 
 .tech-stack i:hover {
   transform: scale(1.2);
+}
+
+.tech-stack {
+  margin: 3rem 0;
+  padding-bottom: 3px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
 .fa-html5 {
@@ -111,54 +134,60 @@ footer {
   background-color: var(--YELLOW);
 }
 
-/*! CARD BACKGROUND */
-
-#hero .card,
-#skills .card,
-#contact .card {
-  background-color: rgba(0, 0, 0, 0.75);
-}
+/*! CARD BACKGROUNDS */
 
 #work .card,
-#about .card {
+#about .card,
+#skills-about .card {
   background-color: rgba(17, 138, 178, 1);
+}
+
+#hero .card,
+#skills-about .card {
+  background-color: var(--BLACK);
 }
 
 /*! CARD BORDERS */
 
 #hero .card,
-#work .card,
-#skills .card,
-#contact .card,
-#about .card {
-  border: 0px solid rgb(80, 80, 80);
-  /* border: 0; */
+#skills-about .card,
+#contact .card {
+  /* border: 1px solid rgb(80, 80, 80); */
+  border: 0;
+}
+
+#work .card {
+  border: 2px solid black;
+}
+
+#work .card-body {
+  border-top: 2px solid black;
 }
 
 /*! WORK IMAGES */
 
 .project__1 {
-  background-image: url("../images/CSS-Cheatsheet-demo.png");
+  background-image: url("../images/Travel-California-Desktop.png");
 }
 
 .project__2 {
-  background-image: url("../images/Landing-Page-demo.png");
+  background-image: url("../images/CSS-Cheatsheet-demo.png");
 }
 
 .project__3 {
-  background-image: url("../images/horiseon-demo.png");
+  background-image: url("../images/Landing-Page-demo.png");
 }
 
 .project__4 {
-  background-image: url("../images/portfolio-1.jpg");
+  background-image: url("../images/horiseon-demo.png");
 }
 
 .project__5 {
-  background-image: url("../images/portfolio-2.jpg");
+  background-image: url("../images/portfolio-1.jpg");
 }
 
 .project__6 {
-  background-image: url("../images/portfolio-3.jpg");
+  background-image: url("../images/portfolio-2.jpg");
 }
 
 .project {
@@ -174,6 +203,7 @@ footer {
 }
 
 #contact i {
+  font-size: 3rem;
   scale: 1;
   transition: all 0.2s ease-in-out;
   cursor: pointer;

@@ -14,48 +14,46 @@
 
 <body>
 
-	<!-- HEADER // NAV BAR -->
-	<header id="header" class="sticky-top border-bottom">
-		<nav class="navbar">
-			<div class="container justify-content-between">
+	<!-- NAV BAR -->
+	<nav id="nav" class="navbar sticky-top border-bottom">
+		<div class="container justify-content-between">
 
-				<img class="d-none d-sm-inline col-sm-8" src="./resources/images/szg()-white-svg.svg" alt="Logo" width="353"
-					height="133" style="min-width: 80px; max-width: 110px; height: auto;">
+			<a href="#"><img class="d-none d-md-inline col-sm-8" src="./resources/images/szg()-white-svg.svg" alt="Logo"
+					width="353" height="133" style="min-width: 80px; max-width: 110px; height: auto;"></a>
 
-				<ul class="col-12 col-sm-4 justify-content-center navbar-nav flex-row fs-4">
-					<li class="nav-item">
-						<a class="nav-link px-2" href="#work">Work</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link px-2" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link px-2" href="#about-contact">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link px-2" href="#about-contact">Contact</a>
-					</li>
-				</ul>
+			<ul class="col-12 col-md-4 justify-content-center navbar-nav flex-row fs-4">
+				<li class="nav-item">
+					<a class="nav-link px-2" href="#work">Work</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-2" href="#skills-about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-2" href="#skills-about">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-2" href="#contact">Contact</a>
+				</li>
+			</ul>
 
-			</div>
-		</nav>
-	</header>
+		</div>
+	</nav>
 
 	<!-- HERO -->
-	<section id="hero" class="container my-5">
+	<section id="hero" class="container">
 		<div class="row justify-content-center">
-			<div class="col-8">
+			<div class="col-10 col-xl-8">
 
 				<div class="card mb-0">
 					<div class="row g-0">
-						<div class="col-md-12 col-lg-4">
+						<div class="col-6 col-sm-8 col-md-6 col-lg-4 col-xl-4 mx-auto">
 							<img src="./resources/images/avatar-338-338.jpeg" class="img-fluid rounded w-75 my-4 mx-auto d-block"
 								alt="Profile Picture">
 						</div>
-						<div class="col-md-12 col-lg-8">
+						<div class="col-10 col-sm-12 col-md-10 col-lg-8 col-xl-8 mx-auto">
 							<div class="card-body">
-								<h5 class="card-title text-center text-sm-center text-md-center text-lg-start text-xl-start">
-									Sebatian Zapata Gutierrez</h5>
+								<h4 class="card-title text-center text-sm-center text-md-center text-lg-start text-xl-start">
+									Sebastian Zapata Gutierrez</h4>
 								<hr>
 								<blockquote class="blockquote mb-0">
 									<p class="card-text">Welcome! I am an aspiring Web Developer eager to learn and improve everyday. I
@@ -66,13 +64,15 @@
 							</div>
 						</div>
 
-						<section class="row justify-content-center tech-stack mt-4 mb-5">
-							<div class=" col-sm-12 col-md-10 col-lg-8 col-xl-8 d-flex justify-content-evenly fs-1">
-								<i class="fa-brands fa-html5" alt="HTML"></i>
-								<i class="fa-brands fa-css3-alt" alt="CSS"></i>
-								<i class="fa-brands fa-js" alt="JavaScipt"></i>
-								<i class="fa-brands fa-react" alt="React"></i>
-								<i class="fa-brands fa-bootstrap" alt="Bootstrap"></i>
+						<section class="row justify-content-center mt-4 mb-5">
+							<div class="col-8">
+								<div class=" d-flex justify-content-evenly tech-stack">
+									<i class="fa-brands fa-html5" alt="HTML"></i>
+									<i class="fa-brands fa-css3-alt" alt="CSS"></i>
+									<i class="fa-brands fa-js" alt="JavaScipt"></i>
+									<i class="fa-brands fa-react" alt="React"></i>
+									<i class="fa-brands fa-bootstrap" alt="Bootstrap"></i>
+								</div>
 							</div>
 						</section>
 
@@ -84,11 +84,11 @@
 	</section>
 
 	<!-- WORK -->
-	<section id="work" class="container mt-1">
+	<section id="work" class="container">
 
 		<div class="row justify-content-center">
-			<div class="col-10 border-bottom mb-5 pt-5 pb-4">
-				<h2 class="">Work</h2>
+			<div class="col-10 border-bottom section-division">
+				<h2 class="fs-1">Work</h2>
 			</div>
 		</div>
 
@@ -96,10 +96,28 @@
 
 			<div class="col">
 				<div class="card h-100">
-					<div class="card-img-top project__1 project" alt="..." style="height: 250px"></div>
+					<div class="card-img-top project__1 project" style="height: 250px"></div>
+					<div class="card-body">
+						<h5 class="card-title">Travel California</h5>
+						<hr>
+						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS / Bootstrap</h6>
+						<hr>
+						<p class="card-text">Landing Page taking advantage of the Bootstrap Grid System</p>
+					</div>
+					<div class="card-footer d-grid">
+						<a class="btn btn-warning btn-md" href="https://sebzg.github.io/Travel-California/" role="button">Visit</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card h-100">
+					<div class="card-img-top project__2 project" style="height: 250px"></div>
 					<div class="card-body">
 						<h5 class="card-title">CSS Cheatsheet</h5>
+						<hr>
 						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS</h6>
+						<hr>
 						<p class="card-text">A CSS Cheatsheet for your favourite CSS codes! Simply click on the snippet and it
 							will automatically highlight the code for you to copy.</p>
 					</div>
@@ -111,10 +129,12 @@
 
 			<div class="col">
 				<div class="card h-100">
-					<div class="card-img-top project__2 project" alt="..." style="height: 250px"></div>
+					<div class="card-img-top project__3 project" style="height: 250px"></div>
 					<div class="card-body">
 						<h5 class="card-title">Landing Page</h5>
+						<hr>
 						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS</h6>
+						<hr>
 						<p class="card-text">a landing page with a contact form styled with pure CSS.</p>
 					</div>
 					<div class="card-footer d-grid">
@@ -125,28 +145,14 @@
 
 			<div class="col">
 				<div class="card h-100">
-					<div class="card-img-top project__3 project" alt="..." style="height: 250px"></div>
+					<div class="card-img-top project__4 project" style="height: 250px"></div>
 					<div class="card-body">
 						<h5 class="card-title">Horiseon</h5>
-						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS</h6>
+						<hr>
+						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS / JS</h6>
+						<hr>
 						<p class="card-text">The page of Horiseon where I refactored the code to be more semantic and improved its
 							accessibility and SEO.</p>
-					</div>
-					<div class="card-footer d-grid">
-						<a class="btn btn-warning btn-md" role="button" aria-disabled="true"
-							style="background-color: rgba(128, 128, 128, 1); border-color: var(--BLACK); color: var(--BLACK);  cursor: no-drop">Visit</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col">
-				<div class="card h-100">
-					<div class="card-img-top project__4 project" alt="..." style="height: 250px"></div>
-					<div class="card-body">
-						<h5 class="card-title">LED Wall</h5>
-						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS / JS</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti cum adipisci
-							tenetur nemo illum animi beatae dicta fugit doloribus.</p>
 					</div>
 					<div class="card-footer d-grid">
 						<a class="btn btn-warning btn-md" role="button" aria-disabled="true"
@@ -157,12 +163,14 @@
 
 			<div class="col">
 				<div class="card h-100">
-					<div class="card-img-top project__5 project" alt="..." style="height: 250px"></div>
+					<div class="card-img-top project__5 project" style="height: 250px"></div>
 					<div class="card-body">
-						<h5 class="card-title">Calculator</h5>
+						<h5 class="card-title">LED Wall</h5>
+						<hr>
 						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / Bootstrap / JS</h6>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatem magni
-							aperiam labore alias dolores amet suscipit nemo quis mollitia!</p>
+						<hr>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti cum adipisci
+							tenetur nemo illum animi beatae dicta fugit doloribus.</p>
 					</div>
 					<div class="card-footer d-grid">
 						<a class="btn btn-warning btn-md" role="button" aria-disabled="true"
@@ -173,13 +181,14 @@
 
 			<div class="col">
 				<div class="card h-100">
-					<div class="card-img-top project__6 project" alt="..." style="height: 250px"></div>
+					<div class="card-img-top project__6 project" style="height: 250px"></div>
 					<div class="card-body">
-						<h5 class="card-title">Carz</h5>
-						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / CSS / React / JS</h6>
-						<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero deserunt animi aut
-							ex
-							expedita voluptates itaque aperiam labore illo ut.</p>
+						<h5 class="card-title">Calculator</h5>
+						<hr>
+						<h6 class="card-subtitle mb-2 text-body-secondary">HTML / Bootstrap / JS</h6>
+						<hr>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatem magni
+							aperiam labore alias dolores amet suscipit nemo quis mollitia!</p>
 					</div>
 					<div class="card-footer d-grid">
 						<a class="btn btn-warning btn-md" role="button" aria-disabled="true"
@@ -191,49 +200,19 @@
 		</div>
 	</section>
 
-	<!-- SKILLS -->
-	<section id="skills" class="container mt-1">
-		<div class="row justify-content-center ">
+	<!-- SKILLS // ABOUT -->
+	<section id="skills-about" class="container">
 
-			<div class="col-10 border-bottom mb-5 pt-5 pb-4">
-				<h2 class=" ">Skills</h2>
+		<div class="row justify-content-center">
+			<div class="col-10 d-flex justify-content-between border-bottom section-division">
+				<h2 class="fs-1">About</h2>
+				<h2 class="fs-1">Skills</h2>
 			</div>
-
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-8">
 
-				<div class="card h-100">
-					<div class="card-body">
-						<blockquote class="blockquote mb-0">
-							<p>So far I have learned HTML, CSS, JavaScipt, React and Bootstrap. During the bootcamp I intend to dive
-								deeper into these technologies with the practice of building real world Web Apps whilst learning the
-								soft and hard skills of a great Font-End Web Developer. I'm really looking forward to the challenges
-								ahead and what I help establish for years to come with these new set of skills.</p>
-						</blockquote>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-	</section>
-
-	<!-- ABOUT // CONTACT -->
-	<section id="about-contact" class="container mt-1">
-		<div class="row justify-content-center">
-
-			<div class="col-10 d-flex justify-content-between border-bottom mb-5 pt-5 pb-4">
-				<h2 id="about-contact" class="">About</h2>
-				<h2 id="about-contact" class="">Contact</h2>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div id="about" class="col-sm-12 col-md-9 ">
+			<div class="col-sm-5">
 				<div class="card h-100">
 					<div class="card-body">
 						<blockquote class="blockquote mb-0">
@@ -249,18 +228,17 @@
 				</div>
 			</div>
 
-			<div id="contact" class="col-sm-12 col-md-3 ">
+			<div class="col-sm-1"></div>
+
+			<div class="col-sm-5">
 				<div class="card h-100">
-					<div class="card-body d-flex flex-sm-row flex-md-column  justify-content-around align-items-center fs-1">
-						<a class="" href="mailto:sebastian.zapata.g@gmail.com">
-							<i class="fa-solid fa-envelope"></i>
-						</a>
-						<a class="" href="https://github.com/SebZG" alt="My GitHub Profile">
-							<i class="fa-brands fa-github"></i>
-						</a>
-						<a class="" href="https://www.linkedin.com/in/sebastian-z-g/" alt="My Linkedin Profile">
-							<i class="fa-brands fa-linkedin"></i>
-						</a>
+					<div class="card-body">
+						<blockquote class="blockquote mb-0">
+							<p>So far I have learned HTML, CSS, JavaScipt, React and Bootstrap. During the bootcamp I intend to dive
+								deeper into these technologies with the practice of building real world Web Apps whilst learning the
+								soft and hard skills of a great Font-End Web Developer. I'm really looking forward to the challenges
+								ahead and what I help establish for years to come with these new set of skills.</p>
+						</blockquote>
 					</div>
 				</div>
 			</div>
@@ -269,8 +247,33 @@
 
 	</section>
 
+	<!-- CONTACT-->
+	<section id="contact" class="container">
+		<div class="row justify-content-center ">
+
+			<div class="col-10 border-bottom section-division">
+				<h2 class="fs-1">Contact</h2>
+			</div>
+
+		</div>
+
+		<div class="row justify-content-center">
+
+			<div class="d-flex justify-content-evenly align-items-center">
+				<a class="" href="mailto:sebastian.zapata.g@gmail.com" alt="My Email">
+					<i class="fa-solid fa-envelope"></i></a>
+				<a class="" href="https://github.com/SebZG" alt="My GitHub Profile">
+					<i class="fa-brands fa-github"></i></a>
+				<a class="" href="https://www.linkedin.com/in/sebastian-z-g/" alt="My Linkedin Profile">
+					<i class="fa-brands fa-linkedin"></i></a>
+			</div>
+
+		</div>
+
+	</section>
+
 	<!-- FOOTER -->
-	<footer id="footer" class=" border-top mt-5 py-4">
+	<footer id="footer" class=" border-top py-4">
 		<div class="container">
 			<div class="d-flex justify-content-center align-items-center">
 
