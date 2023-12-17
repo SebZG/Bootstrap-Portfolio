@@ -31,7 +31,7 @@
 }
 
 #work,
-#skills-about,
+#info,
 #contact {
   scroll-margin-top: 6rem;
 }
@@ -61,7 +61,7 @@ footer {
 
 #hero,
 #work,
-#skills-about,
+#info,
 #contact {
   margin-bottom: 6rem;
 }
@@ -138,19 +138,19 @@ footer {
 
 #work .card,
 #about .card,
-#skills-about .card {
+#info .card {
   background-color: rgba(17, 138, 178, 1);
 }
 
 #hero .card,
-#skills-about .card {
+#info .card {
   background-color: var(--BLACK);
 }
 
 /*! CARD BORDERS */
 
 #hero .card,
-#skills-about .card,
+#info .card,
 #contact .card {
   /* border: 1px solid rgb(80, 80, 80); */
   border: 0;
