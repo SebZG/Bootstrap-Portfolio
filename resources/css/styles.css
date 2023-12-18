@@ -106,7 +106,7 @@ footer {
 
 #hero img {
   /* outline: 3px solid black; */
-  box-shadow: 3px 5px 6px 0px black;
+  box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 /*! TECH STACK */
@@ -168,26 +168,30 @@ footer {
 #hero .card,
 #info .card,
 #contact .card {
-  /* border: 1px solid rgb(80, 80, 80); */
-  border: 0;
+  border: 1px solid rgb(80, 80, 80);
+  /* border: 0; */
+  --bs-card-border-radius: 1rem;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 #work .card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: 0;
   --bs-card-border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-#work .card-body {
-  border-top: 2px solid black;
-}
+/* #work .card-body {
+  border-top: 1px solid black;
+} */
 
 /*! CARD BUTTONS  */
 
-.card-footer {
+/* .card-footer {
   --bs-card-cap-padding-y: 0;
   --bs-card-cap-padding-x: 0;
-}
+} */
 
 .btn {
   background-color: rgba(0, 0, 0, 9);
@@ -206,45 +210,57 @@ footer {
 /*! WORK IMAGES */
 
 .project__1 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/Travel-California-Desktop.png");
+      rgba(0, 0, 0, 1)), */
+    url("../images/Travel-California-Desktop.png");
 }
 
 .project__2 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/CSS-Cheatsheet-demo.png");
+      rgba(0, 0, 0, 1)), */
+    url("../images/CSS-Cheatsheet-demo.png");
 }
 
 .project__3 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/Landing-Page-demo.png");
+      rgba(0, 0, 0, 1)), */
+    url("../images/Landing-Page-demo.png");
 }
 
 .project__4 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/horiseon-demo.png");
+      rgba(0, 0, 0, 1)), */
+    url("../images/horiseon-demo.png");
 }
 
 .project__5 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/portfolio-1.jpg");
+      rgba(0, 0, 0, 1)), */
+    url("../images/portfolio-1.jpg");
 }
 
 .project__6 {
-  background-image: linear-gradient(to bottom,
+  background-image:
+    /* linear-gradient(to bottom,
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
-      rgba(0, 0, 0, 1)), url("../images/portfolio-2.jpg");
+      rgba(0, 0, 0, 1)), */
+    url("../images/portfolio-2.jpg");
 }
 
 .project {
