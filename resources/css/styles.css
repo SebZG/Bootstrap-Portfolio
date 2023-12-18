@@ -135,15 +135,13 @@ footer {
 }
 
 .tech-stack i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .tech-stack {
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
-
-
 
 .tech-stack .fa-brands {
   margin-top: 1.5rem;
@@ -326,7 +324,7 @@ footer {
 }
 
 #contact i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .fa-envelope {
