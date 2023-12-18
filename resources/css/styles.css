@@ -33,7 +33,7 @@
 #work,
 #info,
 #contact {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 5rem;
 }
 
 body {
@@ -92,11 +92,21 @@ footer {
   margin-left: 2rem;
 }
 
+.fa-turn-up {
+  font-size: 3.5rem;
+  position: fixed;
+  top: 55%;
+  right: 5%;
+  z-index: 100;
+  color: var(--BLUE);
+  text-shadow: 0px 0px 5px black;
+}
+
 /*! HERO */
 
 #hero img {
   /* outline: 3px solid black; */
-  box-shadow: 3px 5px 16px 0px black;
+  box-shadow: 3px 5px 6px 0px black;
 }
 
 /*! TECH STACK */
@@ -164,6 +174,8 @@ footer {
 
 #work .card {
   border: 1px solid black;
+  --bs-card-border-radius: 1rem;
+  overflow: hidden;
 }
 
 #work .card-body {
@@ -190,10 +202,6 @@ footer {
 .btn:hover {
   background-color: var(--YELLOW);
 }
-
-/* .btn-warning {
-  --bs-btn-hover-border-color: var(--WHITE)
-} */
 
 /*! WORK IMAGES */
 
@@ -279,7 +287,7 @@ footer {
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .tech-stack i {
     font-size: 3rem;
-    margin: 0 .75rem;
+    margin: 0 .5rem;
   }
 
   #contact i {
