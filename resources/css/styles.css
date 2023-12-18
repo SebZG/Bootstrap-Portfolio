@@ -62,13 +62,15 @@ footer {
   margin-bottom: 4rem;
 }
 
-#skills {
-  margin-bottom: 1rem;
-}
-
 .section-division {
   margin-bottom: 6rem;
   padding-bottom: 2rem;
+}
+
+.work-divider {
+  width: 35%;
+  border-top-width: 4px;
+  margin: 4rem 0;
 }
 
 /*! BORDERS */
