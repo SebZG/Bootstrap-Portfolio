@@ -151,6 +151,13 @@ footer {
   color: blueviolet;
 }
 
+/*! CARDS GENERAL  */
+
+#work .card-footer {
+  border-top: 0;
+  background-color: var(--BLUE);
+  padding-bottom: 1rem;
+}
 
 /*! CARD BACKGROUNDS */
 
@@ -186,28 +193,21 @@ footer {
 
 /*! CARD BUTTONS  */
 
-.card-footer {
-  /* --bs-card-cap-padding-y: 0; */
-  /* --bs-card-cap-padding-x: 0; */
-  border-top: 0;
-  background-color: var(--BLUE);
-}
 
 .btn {
   background-color: rgba(0, 0, 0, 9);
   /* border: 1px solid rgba(0, 0, 0, 1); */
   border: 0;
-  /* border-top-left-radius: 0; */
-  /* border-top-right-radius: 0; */
-  /* border-bottom-right-radius: 0.2rem; */
-  /* border-bottom-left-radius: 0.2rem; */
   border-radius: 0.4rem;
   color: white;
-  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.25s ease-in-out;
 }
 
 .btn:hover {
   background-color: var(--YELLOW);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 /*! WORK IMAGES */
