@@ -92,6 +92,13 @@ footer {
   margin-left: 2rem;
 }
 
+/*! HERO */
+
+#hero img {
+  /* outline: 3px solid black; */
+  box-shadow: 3px 5px 16px 0px black;
+}
+
 /*! TECH STACK */
 
 .tech-stack i {
