@@ -67,10 +67,16 @@ footer {
   padding-bottom: 2rem;
 }
 
-.work-divider {
+.info__divider {
   width: 35%;
   border-top-width: 4px;
   margin: 4rem 0;
+}
+
+.hero-title__divider,
+.tech-stack__divider {
+  color: rgb(80, 80, 80);
+  opacity: 1;
 }
 
 /*! BORDERS */
@@ -129,8 +135,11 @@ footer {
 }
 
 .tech-stack {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
+
+
 
 .tech-stack .fa-brands {
   margin-top: 1.5rem;
@@ -225,7 +234,7 @@ footer {
 }
 
 .btn-off:hover {
-  background-color: rgb(116, 116, 116)
+  background-color: rgb(121, 121, 121)
 }
 
 /*! WORK IMAGES */
