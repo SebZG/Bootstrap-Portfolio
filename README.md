@@ -16,6 +16,16 @@ Here I take advantage of Bootstrap's components, 12 column grid system. The use 
 - [**Bootstrap**](https://getbootstrap.com/)
 
 ##
-### Demo
+### Desktop
 
 ![](./resources/images/Bootstrap-Portfolio-Desktop.png)
+
+##
+### Tablet
+
+![](./resources/images/Bootstrap-Portfolio-Tablet.png)
+
+##
+### Mobile
+
+![](./resources/images/Bootstrap-Portfolio-Mobile.png)
