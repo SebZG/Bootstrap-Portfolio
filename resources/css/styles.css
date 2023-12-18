@@ -237,6 +237,14 @@ footer {
   background-color: rgb(121, 121, 121)
 }
 
+/*! WORK CARDS */
+
+#skills .card,
+#about .card {
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+}
+
+
 /*! WORK IMAGES */
 
 .project__1 {
