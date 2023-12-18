@@ -105,7 +105,7 @@ footer {
   right: 5%;
   z-index: 100;
   color: var(--BLUE);
-  text-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 3px black;
 }
 
 /*! HERO */
