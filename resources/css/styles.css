@@ -184,25 +184,26 @@ footer {
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* #work .card-body {
-  border-top: 1px solid black;
-} */
-
 /*! CARD BUTTONS  */
 
-/* .card-footer {
-  --bs-card-cap-padding-y: 0;
-  --bs-card-cap-padding-x: 0;
-} */
+.card-footer {
+  /* --bs-card-cap-padding-y: 0; */
+  /* --bs-card-cap-padding-x: 0; */
+  border-top: 0;
+  background-color: var(--BLUE);
+}
 
 .btn {
   background-color: rgba(0, 0, 0, 9);
-  border: 1px solid rgba(0, 0, 0, 1);
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
+  /* border: 1px solid rgba(0, 0, 0, 1); */
+  border: 0;
+  /* border-top-left-radius: 0; */
+  /* border-top-right-radius: 0; */
+  /* border-bottom-right-radius: 0.2rem; */
+  /* border-bottom-left-radius: 0.2rem; */
+  border-radius: 0.4rem;
   color: white;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
