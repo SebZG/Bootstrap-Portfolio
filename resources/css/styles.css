@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 * {
   /* outline: 1px solid red; */
 }
@@ -26,8 +28,8 @@
 /*! GENERAL  */
 
 ::selection {
-  background-color: var(--BLUE);
-  color: var(--WHITE);
+  background-color: var(--YELLOW);
+  color: var(--BLACK);
 }
 
 #work,
@@ -92,8 +94,12 @@ footer {
   margin-bottom: 3.5rem;
 }
 
-#nav img {
+
+#nav #logo__nav {
   margin-left: 2rem;
+  font-family: 'Fira Code', monospace;
+	font-weight: 500;
+	font-size: var(--F-XL);
 }
 
 #nav a {
@@ -124,6 +130,16 @@ footer {
 
 #hero .card {
   padding: 1rem 1rem 0 1rem;
+}
+
+.css-portfolio {
+	color: var(--YELLOW);
+	text-decoration: none;
+	transition: color 0.2s ease-in-out;
+}
+
+.css-portfolio:hover {
+	color: var(--BLUE);
 }
 
 /*! TECH STACK */
@@ -256,7 +272,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/Portofolio-Desktop.png");
+    url("../images/films-4-search.png");
 }
 
 .project__2 {
@@ -265,7 +281,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/Console-Finances-demo.png");
+    url("../images/Weather-Dashboard-desktop.png");
 }
 
 .project__3 {
@@ -274,7 +290,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/Travel-California-Desktop.png");
+    url("../images/work-day-scheduler-desktoop.png");
 }
 
 .project__4 {
@@ -283,7 +299,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/CSS-Cheatsheet-demo.png");
+    url("../images/Coding-Quiz-quiz.png");
 }
 
 .project__5 {
@@ -292,7 +308,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/Landing-Page-demo.png");
+    url("../images/Password-Generator-Desktop.png");
 }
 
 .project__6 {
@@ -301,7 +317,7 @@ footer {
       rgba(0, 0, 0, 0.1) 10%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 1)), */
-    url("../images/horiseon-demo.png");
+    url("../images/CSS-Cheatsheet-demo.png");
 }
 
 .project {
@@ -337,6 +353,14 @@ footer {
 
 .fa-linkedin {
   color: dodgerblue;
+}
+
+/*! FOOTER */
+
+#logo__footer {
+	font-family: 'Fira Code', monospace;
+	font-weight: 500;
+	font-size: var(--F-XL);
 }
 
 /*! MEDIA QUERY */
